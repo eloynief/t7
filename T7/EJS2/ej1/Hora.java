@@ -40,20 +40,32 @@ public class Hora {
 	
 	//
 	
-	public void incrementaSegundo() {
-		
+	public void incrementaSegundo(int cuenta) {
+		//mientras la cuenta sea mayor que 0, aumenta los segundos uno por uno
+//		while(cuenta>0) {
 		//incrementa ubn segundo a la hora actual
-		segundo=segundo+1;
-		
-		if(segundo>=60) {
-			minuto++;
-		}
-		if(minuto>=60||segundo>=3600) {
+			segundo=segundo+1;
 			
-		}
+			if(segundo>=60) {
+				minuto++;
+				segundo=0;
+			}
+			if(minuto>=60||segundo>=3600) {
+				hora++;
+				minuto=0;
+			}
+			//va disminuyendo cuenta hasta 0
+//			cuenta--;
+//		}
+//		return 
 	}
 	
 	
+	public int sethora() {
+		return hora;
+		
+		
+	}
 	
 	
 	//✅
