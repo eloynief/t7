@@ -2,6 +2,8 @@ package ej1;
 
 import java.util.Scanner;
 
+import enej1.CuentaCorriente;
+
 
 public class Main {
 

@@ -4,6 +4,10 @@ public class Hora {
 	//elementos 
 	private int hora=0,minuto=0,segundo=0;
 	
+	public Hora() {
+		super();
+	}
+	
 	
 	//constructor con parámetros
 	public Hora(int hora,int minuto,int segundo) {
@@ -14,6 +18,13 @@ public class Hora {
 		
 	}
 	
+	//hace una copia del objeto creado
+	public Hora(Hora h) {
+		
+		this.hora=hora;
+		this.minuto=minuto;
+		this.segundo=segundo;
+	}
 	
 	//get
 	public int gethora() {
