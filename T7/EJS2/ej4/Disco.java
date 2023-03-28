@@ -1,5 +1,9 @@
 package ej4;
-
+/**
+ * 
+ * @author enieves
+ *
+ */
 public class Disco {
 	//crear variables
 	String codigo="LIBRE", autor, titulo, genero;

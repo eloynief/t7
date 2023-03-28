@@ -1,5 +1,9 @@
 package ej4;
-
+/**
+ * 
+ * @author enieves
+ *
+ */
 public class Main {
 
 	public static void main(String[] args) {
@@ -7,9 +11,9 @@ public class Main {
 
 		int cantidad=0;
 		
-		
+		//
 		System.out.println("COLECCIÓN DE DISCOS");
-		
+		//
 		System.out.println("===================");
 		System.out.println("1. Listado.");
 		System.out.println("2. Nuevo Disco.");
